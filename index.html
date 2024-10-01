@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Battle SF6</title>
+    <link rel="icon" href="path-to-your-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <!-- <h1 id="main-title" contenteditable="true" spellcheck="false">Team vs Team</h1>
+        <p contenteditable="true" spellcheck="false" class="rules">FT2 No Counterpick</p> -->
+
+        <div class="lists-container">
+            <div class="list-container">
+                <h2 contentEditable="true" spellcheck="false"></h2>
+                <ul id="team1" class="list">
+
+                </ul>
+                <button class="add-button" onclick="addPlayer('team1')">Ajouter +</button>
+            </div>
+            
+            <div class="rectangle"></div>
+            
+            <div class="list-container">
+                <h2 contentEditable="true" spellcheck="false"></h2>
+                <ul id="team2" class="list">
+
+                </ul>
+                <button class="add-button" onclick="addPlayer('team2')">Ajouter +</button>
+            </div>
+        </div> 
+        
+        <!-- <div class="vs-logo">
+            <img src="assets/logo/TheFoolLogo.png" alt="Logo Gauche" class="side-logo left-logo">
+            <img src="assets/logo/VS.png" alt="VS Logo">
+            <img src="assets/logo/GlorlandLogo.png" alt="Logo Droit" class="side-logo right-logo">
+        </div> -->
+
+        <input type="file" id="backgroundInput" style="display:none;" accept="image/*">
+        <button id="setBackgroundBtn" class="set-background-btn">Importer une image</button>
+        
+        <input type="file" class="image-upload" accept="image/*" id="imageInput" style="display: none;">
+        <img id="previewImage" class="image-preview" alt="Aperçu de l'image" style="display: none;">
+
+        
+        <div id="copyrightModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Avec la participation de :</h2>
+                    <p><a href="lien_vers_junkbezoul" target="_blank" style="text-decoration: none;">JunkBezoul (Dev)</a></p>
+                    <p><a href="lien_vers_noobyac" target="_blank" style="text-decoration: none;">NoobyAC (Assets)</a></p>
+                    <p><a href="lien_vers_curtis_newton" target="_blank" style="text-decoration: none;">Curtis Newton (Design)</a></p>
+                    <p><a href="lien_vers_pachi" target="_blank" style="text-decoration: none;">Pachi (Le Goat des Goat)</a></p>
+                <div class="footer">
+                    <a href="https://x.com/TeamTheFool" target="_blank" style="text-decoration: none;">THE FOOL</a>
+                </div>
+            </div>
+        </div>
+
+        <p id="copyright" style="cursor: pointer;" class="copyright">Made by The Fool</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
