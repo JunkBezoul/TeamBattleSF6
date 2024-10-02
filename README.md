@@ -47,9 +47,6 @@ Ce projet est une page web interactive qui permet de créer et gérer deux équi
 ### 5. **Ajouter un Background**
    - Cliquez sur le **Importer une image** en bas à gauche de l'écran pour choisir une image comme background.
    - Une fois l'image sélectionnée, elle apparaîtra en fond de la page.
+   - l'image mise en fond doit respecter un ratio de 16/9.
 
-## **Attention**
-
-   - Ceci est un projet Github Pages, cela signifi que la page n'a aucune base de donnée.
-   refresh/quitter la page supprimera tout ce que vous avez fait, faites attention !
    
